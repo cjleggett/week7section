@@ -1,6 +1,6 @@
 from cs50 import get_string, SQL
 
-db = SQL("sqlite:///students.db")
+db = SQL("sqlite:///harvard.db")
 
 # Add new person
 name = get_string("Name: ")
